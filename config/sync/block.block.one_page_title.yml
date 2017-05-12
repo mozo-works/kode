@@ -1,0 +1,20 @@
+uuid: e72e6494-3a49-49d5-a56a-c5bf4be82fea
+langcode: ko
+status: true
+dependencies:
+  theme:
+    - one
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: one_page_title
+theme: one
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: '페이지 제목'
+  provider: core
+  label_display: '0'
+visibility: {  }

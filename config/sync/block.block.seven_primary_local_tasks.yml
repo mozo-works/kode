@@ -1,0 +1,22 @@
+uuid: adca27ba-294f-4a0f-990b-160d369f03aa
+langcode: ko
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: ddy1OsBbWxjwEI8VL1viD4I69qcLHOkul4BxbTqLBTs
+id: seven_primary_local_tasks
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 기본탭
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

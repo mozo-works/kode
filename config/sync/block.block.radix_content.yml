@@ -1,0 +1,22 @@
+uuid: a8560fa3-ca90-470b-b32e-885e8c5f119c
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: radix_content
+theme: radix
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: '메인 페이지 콘텐츠'
+  provider: system
+  label_display: '0'
+visibility: {  }

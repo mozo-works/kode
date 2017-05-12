@@ -1,0 +1,22 @@
+uuid: 4063e076-4a7c-4951-9b23-362d46fac0e7
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - one
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: one_powered
+theme: one
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

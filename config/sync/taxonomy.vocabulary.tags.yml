@@ -1,0 +1,11 @@
+uuid: 9e0d4704-5b61-41d4-be35-e1e88e46a1b0
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
+name: 태그
+vid: tags
+description: '태그를 이용해 비슷한 주제의 기사들을 카테고리로 묶으십시오.'
+hierarchy: 0
+weight: 0

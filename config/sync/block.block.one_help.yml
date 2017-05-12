@@ -1,0 +1,22 @@
+uuid: 7018772b-72f7-4478-8506-c87157f89afe
+langcode: ko
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - one
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: one_help
+theme: one
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: 도움말
+  provider: help
+  label_display: '0'
+visibility: {  }

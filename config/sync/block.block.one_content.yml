@@ -1,0 +1,22 @@
+uuid: 45907a22-189c-4857-842c-d4cd0373bcef
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - one
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: one_content
+theme: one
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: '메인 페이지 콘텐츠'
+  provider: system
+  label_display: '0'
+visibility: {  }

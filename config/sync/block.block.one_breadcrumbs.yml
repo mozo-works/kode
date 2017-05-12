@@ -1,0 +1,22 @@
+uuid: e50c0728-b09a-496d-9373-a4431662800a
+langcode: ko
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - one
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: one_breadcrumbs
+theme: one
+region: navbar_branding
+weight: -2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: '이동 경로'
+  provider: system
+  label_display: '0'
+visibility: {  }

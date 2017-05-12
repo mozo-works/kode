@@ -1,0 +1,22 @@
+uuid: 9d14ffff-1798-492f-b90e-9bc05e6573cf
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - one
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: one_messages
+theme: one
+region: content
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: '상태 메시지'
+  provider: system
+  label_display: '0'
+visibility: {  }

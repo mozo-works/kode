@@ -1,0 +1,22 @@
+uuid: 9c42f0b4-53ba-4846-be06-433d84683e59
+langcode: ko
+status: true
+dependencies:
+  theme:
+    - one
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: one_local_tasks
+theme: one
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 탭
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 79c833ee-ba46-478d-8e45-010db0980dda
+langcode: ko
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seven
+_core:
+  default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
+id: seven_login
+theme: seven
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: '사용자 로그인'
+  provider: user
+  label_display: visible
+visibility: {  }

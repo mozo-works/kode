@@ -1,0 +1,14 @@
+uuid: 2e52e0c6-8315-49ce-8fa1-3d3c5c963562
+name: '우리나라 이주민 법안 서비스'
+mail: mozodev@users.noreply.github.com
+slogan: '법은 이해해야 지킬 수 있습니다.'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ko
+default_langcode: ko
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

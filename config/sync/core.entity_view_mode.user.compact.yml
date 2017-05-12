@@ -1,0 +1,12 @@
+uuid: 9bb130c0-cc9d-4238-bbe1-cccb61b41e98
+langcode: ko
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 71CSAr_LNPcgu6D6jI4INl1KATkahmeyUFBETAWya8g
+id: user.compact
+label: 간략
+targetEntityType: user
+cache: true

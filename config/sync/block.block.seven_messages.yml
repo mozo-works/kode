@@ -1,0 +1,22 @@
+uuid: 1606144e-3db8-4e6c-853f-74b2687550e2
+langcode: ko
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: XJqWwLt1LDCnazcEN6QkJmCLjk4R0__-8s0OO9xeNjg
+id: seven_messages
+theme: seven
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: '상태 메시지'
+  provider: system
+  label_display: '0'
+visibility: {  }

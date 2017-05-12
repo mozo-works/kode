@@ -1,0 +1,14 @@
+uuid: 2dc69652-5242-4f16-833d-30cdfa6f0387
+langcode: ko
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - mozodev@users.noreply.github.com
+reply: ''
+weight: 0
+message: '메시지가 발송 되었습니다.'
+redirect: ''

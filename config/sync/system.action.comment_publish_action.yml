@@ -1,0 +1,13 @@
+uuid: 46a244ce-ce38-4aa5-b0e3-06925dac7970
+langcode: ko
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
+id: comment_publish_action
+label: '댓글 공개'
+type: comment
+plugin: comment_publish_action
+configuration: {  }
