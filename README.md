@@ -85,5 +85,8 @@ npm run setup
 ```
 cd {{ project-root }}/web
 drush rs /
+# 터미널 새로 여시고 아래 실헹해서 테마 프론트엔드 개발 시작!
+cd themes/one/
+gulp
 ```
 
