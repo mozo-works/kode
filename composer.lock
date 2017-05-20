@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "db483efd4f7d86676272b5db38223b07",
+    "content-hash": "37638de5a919f0bfb20085e1b3aa49fd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1526,6 +1526,77 @@
             "time": "2017-05-03T17:12:42+00:00"
         },
         {
+            "name": "drupal/default_content",
+            "version": "1.0.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/default_content",
+                "reference": "8.x-1.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content-8.x-1.0-alpha6.zip",
+                "reference": null,
+                "shasum": "ec378158521afff8181f3536e140a31c161fc867"
+            },
+            "require": {
+                "drupal/core": "~8.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1493675943"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                },
+                {
+                    "name": "matslats",
+                    "homepage": "https://www.drupal.org/user/140053"
+                }
+            ],
+            "description": "Imports default content when a module is enabled",
+            "homepage": "https://www.drupal.org/project/default_content",
+            "support": {
+                "source": "http://cgit.drupalcode.org/default_content"
+            }
+        },
+        {
             "name": "drupal/radix",
             "version": "3.1.0",
             "source": {
@@ -1536,7 +1607,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/radix-8.x-3.1.zip",
-                "reference": null,
+                "reference": "8.x-3.1",
                 "shasum": "010c54c7d586852c08ae4d207eb477506f410ace"
             },
             "require": {
@@ -5962,7 +6033,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/default_content": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
