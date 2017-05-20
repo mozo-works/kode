@@ -1,20 +1,25 @@
 {
-	"folders": [
-		{
-			"path": ".",
-			"name": "project-root",
-			"folder_exclude_patterns": ["config", "drush", "scripts", "vendor", "web"],
-			"file_exclude_patterns": ["composer.lock", ".travis.yml", "LICENSE", "*.dist"]
-		},
-		{
-			"path": "web/themes/one",
-			"name": "theme-one",
-			"folder_exclude_patterns": ["bower_components", "node_modules"]
-		},
-		{
-			"path": "web/sites/",
-			"name": "site-config",
-			"folder_exclude_patterns": ["files"],
-		}
-	]
+    "folders": [
+        {
+            "path": ".",
+            "name": "project-root",
+            "folder_exclude_patterns": ["config", "drush", "scripts", "vendor", "web"],
+            "file_exclude_patterns": ["composer.lock", ".travis.yml", "LICENSE", "*.dist"]
+        },
+        {
+            "path": "web/sites",
+            "name": "site-config",
+            "folder_exclude_patterns": ["files"],
+        },
+        {
+            "path": "web/themes/one",
+            "name": "theme-one",
+            "folder_exclude_patterns": ["bower_components", "node_modules"]
+        },
+        {
+            "path": "web/modules/custom",
+            "name": "custom-modules",
+            "folder_exclude_patterns": ["files"],
+        }
+    ]
 }
