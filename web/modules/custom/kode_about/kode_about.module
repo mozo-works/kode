@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains kode_about.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function kode_about_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the kode_about module.
+    case 'help.page.kode_about':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('about page of kode project') . '</p>';
+      return $output;
+
+    default:
+  }
+}

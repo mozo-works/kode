@@ -1,0 +1,14 @@
+{
+  "name": "drupal/kode_about",
+  "type": "drupal-module",
+  "description": "about page of kode project",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/kode_about",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/kode_about",
+    "source": "http://cgit.drupalcode.org/kode_about"
+  },
+  "require": { }
+}

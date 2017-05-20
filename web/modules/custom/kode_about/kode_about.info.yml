@@ -1,0 +1,7 @@
+name: kode about
+type: module
+description: about page of kode project
+core: 8.x
+package: Default content
+dependencies:
+  - default_content

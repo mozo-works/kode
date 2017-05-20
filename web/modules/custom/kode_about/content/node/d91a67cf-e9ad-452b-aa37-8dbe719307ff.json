@@ -1,0 +1,139 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/127.0.0.1:8888\/about?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/127.0.0.1:8888\/user\/1?_format=hal_json",
+                "lang": "ko"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/127.0.0.1:8888\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d91a67cf-e9ad-452b-aa37-8dbe719307ff"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "ko",
+            "lang": "ko"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "ko"
+        }
+    ],
+    "title": [
+        {
+            "value": "\uc18c\uac1c",
+            "lang": "ko"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/127.0.0.1:8888\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "07407029-9054-4b53-ae4f-d8ddde46aa86"
+                    }
+                ],
+                "lang": "ko"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/127.0.0.1:8888\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "07407029-9054-4b53-ae4f-d8ddde46aa86"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1495253279,
+            "lang": "ko"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1495253324,
+            "lang": "ko"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "ko"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1495253324
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "ko"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "ko"
+        }
+    ],
+    "path": {
+        "alias": "\/about"
+    }
+}
